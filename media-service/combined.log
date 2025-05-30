@@ -1,0 +1,82 @@
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2025-05-29T11:31:13.761Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-29T11:31:23.764Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2025-05-29T11:32:51.923Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-29T11:32:54.867Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2025-05-29T11:44:24.652Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-29T11:44:26.739Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2025-05-29T11:44:41.820Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-29T11:44:49.045Z"}
+{"level":"info","message":"Received POST request from /api/media/upload","service":"media-service","timestamp":"2025-05-29T11:58:56.807Z"}
+{"level":"info","message":"Received body undefined","service":"media-service","timestamp":"2025-05-29T11:58:56.808Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-05-29T11:58:56.818Z"}
+{"level":"info","message":"File details: name=developer.webp, type=image/webp","service":"media-service","timestamp":"2025-05-29T11:58:56.819Z"}
+{"level":"info","message":"Uploading file to cloudinary starting...","service":"media-service","timestamp":"2025-05-29T11:58:56.819Z"}
+{"level":"info","message":"File upload successful. Public Id = k6z1zcy3aicdh4dcp8ev","service":"media-service","timestamp":"2025-05-29T11:59:00.826Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"media-service","timestamp":"2025-05-30T06:41:28.177Z"}
+{"level":"info","message":"Subscribed to event: post:deleted","service":"media-service","timestamp":"2025-05-30T06:41:28.893Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2025-05-30T06:41:28.896Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-30T06:41:33.530Z"}
+{"level":"info","message":"Received POST request from /api/media/upload","service":"media-service","timestamp":"2025-05-30T06:48:13.050Z"}
+{"level":"info","message":"Received body undefined","service":"media-service","timestamp":"2025-05-30T06:48:13.051Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-05-30T06:48:13.063Z"}
+{"level":"info","message":"File details: name=29.jpg, type=image/jpeg","service":"media-service","timestamp":"2025-05-30T06:48:13.063Z"}
+{"level":"info","message":"Uploading file to cloudinary starting...","service":"media-service","timestamp":"2025-05-30T06:48:13.064Z"}
+{"level":"info","message":"File upload successful. Public Id = dnyr09qhtmnabo9whjmc","service":"media-service","timestamp":"2025-05-30T06:48:15.684Z"}
+{"kind":"ObjectId","level":"error","message":"Error occured while deleting media Cast to ObjectId failed for value \"dnyr09qhtmnabo9whjmc\" (type string) at path \"_id\" for model \"Media\"","path":"_id","reason":{},"service":"media-service","stack":"CastError: Cast to ObjectId failed for value \"dnyr09qhtmnabo9whjmc\" (type string) at path \"_id\" for model \"Media\"\n    at SchemaObjectId.cast (D:\\Node JS Projects\\social-media-microservices\\media-service\\node_modules\\mongoose\\lib\\schema\\objectId.js:251:11)\n    at SchemaType.applySetters (D:\\Node JS Projects\\social-media-microservices\\media-service\\node_modules\\mongoose\\lib\\schemaType.js:1255:12)\n    at SchemaType.castForQuery (D:\\Node JS Projects\\social-media-microservices\\media-service\\node_modules\\mongoose\\lib\\schemaType.js:1673:17)\n    at D:\\Node JS Projects\\social-media-microservices\\media-service\\node_modules\\mongoose\\lib\\schemaType.js:1634:18\n    at Array.map (<anonymous>)\n    at SchemaObjectId.handle$in (D:\\Node JS Projects\\social-media-microservices\\media-service\\node_modules\\mongoose\\lib\\schemaType.js:1630:14)\n    at SchemaType.castForQuery (D:\\Node JS Projects\\social-media-microservices\\media-service\\node_modules\\mongoose\\lib\\schemaType.js:1669:20)\n    at cast (D:\\Node JS Projects\\social-media-microservices\\media-service\\node_modules\\mongoose\\lib\\cast.js:367:39)\n    at Query.cast (D:\\Node JS Projects\\social-media-microservices\\media-service\\node_modules\\mongoose\\lib\\query.js:5055:12)\n    at Query._castConditions (D:\\Node JS Projects\\social-media-microservices\\media-service\\node_modules\\mongoose\\lib\\query.js:2351:10)","stringValue":"\"dnyr09qhtmnabo9whjmc\"","timestamp":"2025-05-30T06:55:34.814Z","value":"dnyr09qhtmnabo9whjmc","valueType":"string"}
+{"level":"info","message":"Connected to rabbit mq","service":"media-service","timestamp":"2025-05-30T07:00:04.159Z"}
+{"level":"info","message":"Subscribed to event: post:deleted","service":"media-service","timestamp":"2025-05-30T07:00:04.234Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2025-05-30T07:00:04.237Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-30T07:00:07.043Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"media-service","timestamp":"2025-05-30T07:02:11.320Z"}
+{"level":"info","message":"Subscribed to event: post:deleted","service":"media-service","timestamp":"2025-05-30T07:02:11.330Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2025-05-30T07:02:11.334Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-30T07:02:14.195Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"media-service","timestamp":"2025-05-30T07:05:14.199Z"}
+{"level":"info","message":"Subscribed to event: post:deleted","service":"media-service","timestamp":"2025-05-30T07:05:14.256Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2025-05-30T07:05:14.260Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-30T07:05:17.076Z"}
+{"kind":"ObjectId","level":"error","message":"Error occured while deleting media Cast to ObjectId failed for value \"dnyr09qhtmnabo9whjmc\" (type string) at path \"_id\" for model \"Media\"","path":"_id","reason":{},"service":"media-service","stack":"CastError: Cast to ObjectId failed for value \"dnyr09qhtmnabo9whjmc\" (type string) at path \"_id\" for model \"Media\"\n    at SchemaObjectId.cast (D:\\Node JS Projects\\social-media-microservices\\media-service\\node_modules\\mongoose\\lib\\schema\\objectId.js:251:11)\n    at SchemaType.applySetters (D:\\Node JS Projects\\social-media-microservices\\media-service\\node_modules\\mongoose\\lib\\schemaType.js:1255:12)\n    at SchemaType.castForQuery (D:\\Node JS Projects\\social-media-microservices\\media-service\\node_modules\\mongoose\\lib\\schemaType.js:1673:17)\n    at D:\\Node JS Projects\\social-media-microservices\\media-service\\node_modules\\mongoose\\lib\\schemaType.js:1634:18\n    at Array.map (<anonymous>)\n    at SchemaObjectId.handle$in (D:\\Node JS Projects\\social-media-microservices\\media-service\\node_modules\\mongoose\\lib\\schemaType.js:1630:14)\n    at SchemaType.castForQuery (D:\\Node JS Projects\\social-media-microservices\\media-service\\node_modules\\mongoose\\lib\\schemaType.js:1669:20)\n    at cast (D:\\Node JS Projects\\social-media-microservices\\media-service\\node_modules\\mongoose\\lib\\cast.js:367:39)\n    at Query.cast (D:\\Node JS Projects\\social-media-microservices\\media-service\\node_modules\\mongoose\\lib\\query.js:5055:12)\n    at Query._castConditions (D:\\Node JS Projects\\social-media-microservices\\media-service\\node_modules\\mongoose\\lib\\query.js:2351:10)","stringValue":"\"dnyr09qhtmnabo9whjmc\"","timestamp":"2025-05-30T07:05:31.716Z","value":"dnyr09qhtmnabo9whjmc","valueType":"string"}
+{"level":"info","message":"Connected to rabbit mq","service":"media-service","timestamp":"2025-05-30T07:06:37.535Z"}
+{"level":"info","message":"Subscribed to event: post:deleted","service":"media-service","timestamp":"2025-05-30T07:06:37.543Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2025-05-30T07:06:37.546Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-30T07:06:41.301Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"media-service","timestamp":"2025-05-30T07:07:28.739Z"}
+{"level":"info","message":"Subscribed to event: post:deleted","service":"media-service","timestamp":"2025-05-30T07:07:28.747Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2025-05-30T07:07:28.750Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-30T07:07:31.635Z"}
+{"level":"error","message":"Error occured while deleting media mediaToDelete is not iterable","service":"media-service","stack":"TypeError: mediaToDelete is not iterable\n    at handlePostDeleted (file:///D:/Node%20JS%20Projects/social-media-microservices/media-service/src/utils/event-handlers.js:11:24)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-05-30T07:08:34.502Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"media-service","timestamp":"2025-05-30T07:09:39.620Z"}
+{"level":"info","message":"Subscribed to event: post:deleted","service":"media-service","timestamp":"2025-05-30T07:09:39.662Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2025-05-30T07:09:39.665Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-30T07:09:42.479Z"}
+{"level":"error","message":"Error occured while deleting media Media.findMany is not a function","service":"media-service","stack":"TypeError: Media.findMany is not a function\n    at handlePostDeleted (file:///D:/Node%20JS%20Projects/social-media-microservices/media-service/src/utils/event-handlers.js:9:39)\n    at file:///D:/Node%20JS%20Projects/social-media-microservices/media-service/src/utils/rabbitmq.js:48:7\n    at Channel.dispatchMessage (D:\\Node JS Projects\\social-media-microservices\\media-service\\node_modules\\amqplib\\lib\\channel.js:489:14)\n    at Channel.handleDelivery (D:\\Node JS Projects\\social-media-microservices\\media-service\\node_modules\\amqplib\\lib\\channel.js:498:17)\n    at Channel.emit (node:events:518:28)\n    at D:\\Node JS Projects\\social-media-microservices\\media-service\\node_modules\\amqplib\\lib\\channel.js:395:10\n    at Channel.content [as handleMessage] (D:\\Node JS Projects\\social-media-microservices\\media-service\\node_modules\\amqplib\\lib\\channel.js:448:9)\n    at Channel.acceptMessageFrame (D:\\Node JS Projects\\social-media-microservices\\media-service\\node_modules\\amqplib\\lib\\channel.js:232:33)\n    at Channel.accept (D:\\Node JS Projects\\social-media-microservices\\media-service\\node_modules\\amqplib\\lib\\channel.js:302:19)\n    at Connection.mainAccept [as accept] (D:\\Node JS Projects\\social-media-microservices\\media-service\\node_modules\\amqplib\\lib\\connection.js:579:33)","timestamp":"2025-05-30T07:10:10.089Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"media-service","timestamp":"2025-05-30T07:11:33.463Z"}
+{"level":"info","message":"Subscribed to event: post:deleted","service":"media-service","timestamp":"2025-05-30T07:11:33.474Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2025-05-30T07:11:33.478Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-30T07:11:36.307Z"}
+{"level":"error","message":"Error occured while deleting media deleteMediaFromCloudinary is not defined","service":"media-service","stack":"ReferenceError: deleteMediaFromCloudinary is not defined\n    at handlePostDeleted (file:///D:/Node%20JS%20Projects/social-media-microservices/media-service/src/utils/event-handlers.js:12:7)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-05-30T07:12:08.680Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"media-service","timestamp":"2025-05-30T07:13:19.408Z"}
+{"level":"info","message":"Subscribed to event: post:deleted","service":"media-service","timestamp":"2025-05-30T07:13:19.451Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2025-05-30T07:13:19.454Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-30T07:13:21.267Z"}
+{"0":"d","1":"n","10":"n","11":"a","12":"b","13":"o","14":"9","15":"w","16":"h","17":"j","18":"m","19":"c","2":"y","3":"r","4":"0","5":"9","6":"q","7":"h","8":"t","9":"m","level":"info","message":"Media deleted successfully from cloud storage","service":"media-service","timestamp":"2025-05-30T07:13:44.669Z"}
+{"level":"info","message":"Deleted media 683954af0d80301ee639c4d4 associated with this post 68395a9360ce188ddf3862b2","service":"media-service","timestamp":"2025-05-30T07:13:44.870Z"}
+{"level":"info","message":"Processed deletion of media for post 68395a9360ce188ddf3862b2","service":"media-service","timestamp":"2025-05-30T07:13:44.873Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"media-service","timestamp":"2025-05-30T07:59:44.512Z"}
+{"level":"info","message":"Subscribed to event: post:deleted","service":"media-service","timestamp":"2025-05-30T07:59:44.527Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2025-05-30T07:59:44.532Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-30T07:59:46.347Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"media-service","timestamp":"2025-05-30T08:00:02.012Z"}
+{"level":"info","message":"Subscribed to event: post:deleted","service":"media-service","timestamp":"2025-05-30T08:00:02.021Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2025-05-30T08:00:02.026Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-30T08:00:03.912Z"}
+{"level":"info","message":"Processed deletion of media for post 68396a524ad71d51d35b6042","service":"media-service","timestamp":"2025-05-30T08:22:45.071Z"}
+{"level":"info","message":"Processed deletion of media for post 683969304ad71d51d35b6040","service":"media-service","timestamp":"2025-05-30T08:23:04.666Z"}
+{"level":"info","message":"Processed deletion of media for post 68370ec4ad113560a4cdd297","service":"media-service","timestamp":"2025-05-30T08:23:23.429Z"}
+{"level":"info","message":"Processed deletion of media for post 68370eaaad113560a4cdd293","service":"media-service","timestamp":"2025-05-30T08:23:36.880Z"}
+{"level":"info","message":"Processed deletion of media for post 6837034031f0abff093e2b14","service":"media-service","timestamp":"2025-05-30T08:23:48.606Z"}
+{"level":"info","message":"Processed deletion of media for post 68396eab19a278d0c5bae0b3","service":"media-service","timestamp":"2025-05-30T08:41:45.804Z"}
+{"level":"info","message":"Processed deletion of media for post 68396f5719a278d0c5bae0ba","service":"media-service","timestamp":"2025-05-30T08:43:53.110Z"}
+{"level":"info","message":"Processed deletion of media for post 6839751399b9064b369403f8","service":"media-service","timestamp":"2025-05-30T09:12:47.495Z"}
+{"level":"info","message":"Processed deletion of media for post 6839744b19a278d0c5bae0d9","service":"media-service","timestamp":"2025-05-30T09:14:31.526Z"}
+{"level":"info","message":"Processed deletion of media for post 6839743a19a278d0c5bae0d7","service":"media-service","timestamp":"2025-05-30T09:15:28.963Z"}

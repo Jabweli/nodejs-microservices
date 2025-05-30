@@ -1,0 +1,10 @@
+{"level":"error","message":"Access attempted without a valid token","service":"api-gateway","timestamp":"2025-05-28T12:34:29.897Z"}
+{"level":"error","message":"Access attempted without a valid token","service":"api-gateway","timestamp":"2025-05-28T13:13:27.317Z"}
+{"level":"error","message":"Access attempted without a valid token","service":"api-gateway","timestamp":"2025-05-28T13:36:25.815Z"}
+{"level":"error","message":"MaxRetriesPerRequestError: Reached the max retries per request limit (which is 20). Refer to \"maxRetriesPerRequest\" option for details.\n    at Socket.<anonymous> (D:\\Node JS Projects\\social-media-microservices\\api-gateway\\node_modules\\ioredis\\built\\redis\\event_handler.js:182:37)\n    at Object.onceWrapper (node:events:633:26)\n    at Socket.emit (node:events:518:28)\n    at TCP.<anonymous> (node:net:351:12)","service":"api-gateway","timestamp":"2025-05-28T16:28:34.086Z"}
+{"level":"error","message":"Access attempted without a valid token","service":"api-gateway","timestamp":"2025-05-29T11:51:19.391Z"}
+{"level":"error","message":"Proxy error: Cannot read properties of undefined (reading 'startsWith')","service":"api-gateway","timestamp":"2025-05-29T11:52:37.143Z"}
+{"level":"error","message":"Proxy error: Cannot read properties of undefined (reading 'startsWith')","service":"api-gateway","timestamp":"2025-05-29T11:56:17.210Z"}
+{"level":"error","message":"Proxy error: Cannot read properties of undefined (reading 'startsWith')","service":"api-gateway","timestamp":"2025-05-29T11:58:33.224Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-05-30T06:50:45.183Z"}
+{"level":"error","message":"Access attempted without a valid token","service":"api-gateway","timestamp":"2025-05-30T09:31:53.931Z"}
