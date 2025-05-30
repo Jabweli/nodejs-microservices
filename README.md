@@ -25,7 +25,6 @@ Provides searching functionality across posts and user profiles using keyword-ba
 - **RabbitMQ / Redis** (inter-service communication)
 - **Docker** (for containerization)
 - **JWT** (for authentication)
-- **Multer / Cloudinary (for media handling)
+- **Multer** / **Cloudinary** (for media handling)
 
----
 
