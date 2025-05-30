@@ -22,18 +22,10 @@ Provides searching functionality across posts and user profiles using keyword-ba
 
 - **Node.js** & **Express.js**
 - **MongoDB** (per service database)
-- **RabbitMQ / Redis** (optional inter-service communication)
+- **RabbitMQ / Redis** (inter-service communication)
 - **Docker** (for containerization)
 - **JWT** (for authentication)
-- **Multer / Cloudinary / AWS S3** (for media handling)
-- **OpenAPI / Swagger** (for API documentation – optional)
+- **Multer / Cloudinary (for media handling)
 
 ---
 
-## 🛠️ Getting Started
-
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/yourusername/social-media-microservices.git
-cd social-media-microservices
